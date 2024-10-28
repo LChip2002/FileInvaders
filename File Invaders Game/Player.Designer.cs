@@ -45,12 +45,13 @@ namespace File_Invaders_Game
             pictureBox1.TabStop = false;
             // 
             // Player
-            // 
+            //
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(236, 180);
             Controls.Add(pictureBox1);
             KeyPreview = true;
+            TopMost = true;
             Name = "Player";
             Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
@@ -85,11 +86,20 @@ namespace File_Invaders_Game
             {
                 Bullet bullet = new Bullet() 
                 {
-                    Location = this.Location
+                    StartPosition = FormStartPosition.Manual,
+                    Location = new Point(this.Location.X, this.Location.Y - 100),
+                    Size = new Size(20, 200)
                 };
 
-                bullet.Location = this.Location;
                 bullet.Show();
+                this.TopMost = true;
+
+                while (bullet.Location.Y != 0)
+                {
+                    bullet.Location = new Point(bullet.Location.X, bullet.Location.Y - 1);
+                }
+
+                //bullet.Fire();
             }
 
             e.Handled = false;

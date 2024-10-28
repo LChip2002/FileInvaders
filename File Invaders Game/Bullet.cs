@@ -16,5 +16,15 @@ namespace File_Invaders_Game
         {
             InitializeComponent();
         }
+
+        public void Fire() 
+        {
+            this.Location = new Point(this.Location.X, this.Location.Y - 10);
+
+            while (true) 
+            {
+                
+            }
+        }
     }
 }

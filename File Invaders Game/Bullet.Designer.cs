@@ -35,9 +35,9 @@
             // pictureBox1
             // 
             pictureBox1.Image = Properties.Resources.Bullet;
-            pictureBox1.Location = new Point(0, -1);
+            pictureBox1.Location = new Point(0, 0);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(288, 452);
+            pictureBox1.Size = new Size(112, 184);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
@@ -46,7 +46,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(288, 450);
+            ClientSize = new Size(120, 190);
             Controls.Add(pictureBox1);
             Name = "Bullet";
             Text = "Bullet";
