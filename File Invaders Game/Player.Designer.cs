@@ -98,21 +98,33 @@ namespace File_Invaders_Game
                     // Check if bullet has hit an enemy
                     var hitEnemies = EnemySpawn.enemies.Where(t => t.Location == bullet.Location).ToList();
 
-                    foreach (var hitEnemy in hitEnemies) 
+                    if (hitEnemies.Count > 0) 
                     {
+                        foreach (var hitEnemy in hitEnemies)
+                        {
 
-                        // Closes the window
-                        hitEnemy.Close();
+                            // Closes the window
+                            hitEnemy.Close();
 
-                        // Deletes the file
-                        File.Delete(Directory.GetCurrentDirectory()+"\\TestFolder\\"+hitEnemy.Name);
-                        
-
-                        // Checks if no files are left
-                        //if ()
+                            // Deletes the file
+                            File.Delete(Directory.GetCurrentDirectory() + "\\TestFolder\\" + hitEnemy.Name);
 
 
+                            // Checks if no files are left
+                            if (Directory.GetFiles(Directory.GetCurrentDirectory() + "\\TestFolder\\").Count() == 0) 
+                            {
+                                // TODO - Victory message or boss
+                                Console.WriteLine("Victory");
+
+                                Application.Exit();
+                            }
+
+
+                        }
+                        break;
                     }
+
+                    
                     
 
                 }
