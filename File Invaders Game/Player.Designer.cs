@@ -95,7 +95,25 @@ namespace File_Invaders_Game
                 {
                     bullet.Location = new Point(bullet.Location.X, bullet.Location.Y - 1);
 
-                    // TODO - Check if bullet has hit an enemy
+                    // Check if bullet has hit an enemy
+                    var hitEnemies = EnemySpawn.enemies.Where(t => t.Location == bullet.Location).ToList();
+
+                    foreach (var hitEnemy in hitEnemies) 
+                    {
+
+                        // Closes the window
+                        hitEnemy.Close();
+
+                        // Deletes the file
+                        File.Delete(Directory.GetCurrentDirectory()+"\\TestFolder\\"+hitEnemy.Name);
+                        
+
+                        // Checks if no files are left
+                        //if ()
+
+
+                    }
+                    
 
                 }
 

@@ -8,7 +8,8 @@ namespace File_Invaders_Game
 {
     public class EnemySpawn
     {
-        public EnemySpawn() { }
+
+        public static List<Enemy>? enemies = new List<Enemy>();
 
         public void GeneratedEnemies()
         {
@@ -24,10 +25,13 @@ namespace File_Invaders_Game
                 Enemy enemy = new Enemy() 
                 {
                     Name = fileInfo.Name,
+                    Text = fileInfo.Name,
                     StartPosition = FormStartPosition.Manual, 
                     Location = new Point(x,y)
 
                 };
+
+                enemies.Add(enemy);
 
                 if (enemy.Location.X > 3000)
                 {
