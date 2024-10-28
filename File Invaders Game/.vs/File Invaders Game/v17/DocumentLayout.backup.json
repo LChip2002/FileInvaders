@@ -1,0 +1,124 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Student\\Downloads\\FileInvaders\\File Invaders Game\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{65D7F1F6-4A71-4BB7-8EB7-2F95CB548C46}|File Invaders Game.csproj|c:\\users\\student\\downloads\\fileinvaders\\file invaders game\\player.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65D7F1F6-4A71-4BB7-8EB7-2F95CB548C46}|File Invaders Game.csproj|solutionrelative:player.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65D7F1F6-4A71-4BB7-8EB7-2F95CB548C46}|File Invaders Game.csproj|c:\\users\\student\\downloads\\fileinvaders\\file invaders game\\bullet.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65D7F1F6-4A71-4BB7-8EB7-2F95CB548C46}|File Invaders Game.csproj|solutionrelative:bullet.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65D7F1F6-4A71-4BB7-8EB7-2F95CB548C46}|File Invaders Game.csproj|c:\\users\\student\\downloads\\fileinvaders\\file invaders game\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{65D7F1F6-4A71-4BB7-8EB7-2F95CB548C46}|File Invaders Game.csproj|solutionrelative:bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65D7F1F6-4A71-4BB7-8EB7-2F95CB548C46}|File Invaders Game.csproj|c:\\users\\student\\downloads\\fileinvaders\\file invaders game\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65D7F1F6-4A71-4BB7-8EB7-2F95CB548C46}|File Invaders Game.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65D7F1F6-4A71-4BB7-8EB7-2F95CB548C46}|File Invaders Game.csproj|c:\\users\\student\\downloads\\fileinvaders\\file invaders game\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65D7F1F6-4A71-4BB7-8EB7-2F95CB548C46}|File Invaders Game.csproj|solutionrelative:player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65D7F1F6-4A71-4BB7-8EB7-2F95CB548C46}|File Invaders Game.csproj|c:\\users\\student\\downloads\\fileinvaders\\file invaders game\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{65D7F1F6-4A71-4BB7-8EB7-2F95CB548C46}|File Invaders Game.csproj|solutionrelative:player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Bullet.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Downloads\\FileInvaders\\File Invaders Game\\Bullet.Designer.cs",
+              "RelativeDocumentMoniker": "Bullet.Designer.cs",
+              "ToolTip": "C:\\Users\\Student\\Downloads\\FileInvaders\\File Invaders Game\\Bullet.Designer.cs",
+              "RelativeToolTip": "Bullet.Designer.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA1wBIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T12:05:13.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Bullet.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Student\\Downloads\\FileInvaders\\File Invaders Game\\Bullet.cs",
+              "RelativeDocumentMoniker": "Bullet.cs",
+              "ToolTip": "C:\\Users\\Student\\Downloads\\FileInvaders\\File Invaders Game\\Bullet.cs [Design]",
+              "RelativeToolTip": "Bullet.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T12:05:09.764Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Downloads\\FileInvaders\\File Invaders Game\\Player.cs",
+              "RelativeDocumentMoniker": "Player.cs",
+              "ToolTip": "C:\\Users\\Student\\Downloads\\FileInvaders\\File Invaders Game\\Player.cs",
+              "RelativeToolTip": "Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T10:18:09.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Downloads\\FileInvaders\\File Invaders Game\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Student\\Downloads\\FileInvaders\\File Invaders Game\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T10:18:05.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Player.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Downloads\\FileInvaders\\File Invaders Game\\Player.Designer.cs",
+              "RelativeDocumentMoniker": "Player.Designer.cs",
+              "ToolTip": "C:\\Users\\Student\\Downloads\\FileInvaders\\File Invaders Game\\Player.Designer.cs",
+              "RelativeToolTip": "Player.Designer.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAcwFkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T10:17:41.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Player.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Student\\Downloads\\FileInvaders\\File Invaders Game\\Player.cs",
+              "RelativeDocumentMoniker": "Player.cs",
+              "ToolTip": "C:\\Users\\Student\\Downloads\\FileInvaders\\File Invaders Game\\Player.cs [Design]",
+              "RelativeToolTip": "Player.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T10:17:33.882Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
