@@ -4,6 +4,9 @@
     <Compile Update="Bullet.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Enemy.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Player.cs">
       <SubType>Form</SubType>
     </Compile>

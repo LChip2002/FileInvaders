@@ -57,9 +57,6 @@ namespace File_Invaders_Game
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
 
-            // Associate the event-handling method with the
-            // KeyDown event.
-            //this.KeyDown += new KeyEventHandler(Form1_KeyDown);
         }
 
         // The form will handle all key events before the control with  
@@ -76,11 +73,11 @@ namespace File_Invaders_Game
             }
             else if (e.KeyCode == Keys.Left) 
             {
-                this.Location = new Point(this.Location.X - 10, this.Location.Y);
+                this.Location = new Point(this.Location.X - 20, this.Location.Y);
             }
             else if (e.KeyCode == Keys.Right)
             {
-                this.Location = new Point(this.Location.X + 10, this.Location.Y);
+                this.Location = new Point(this.Location.X + 20, this.Location.Y);
             }
             else if (e.KeyCode == Keys.Up)
             {
@@ -97,9 +94,15 @@ namespace File_Invaders_Game
                 while (bullet.Location.Y != 0)
                 {
                     bullet.Location = new Point(bullet.Location.X, bullet.Location.Y - 1);
+
+                    // TODO - Check if bullet has hit an enemy
+
                 }
 
-                //bullet.Fire();
+                // Deletes bullet after hitting y coordinate
+                bullet.Close();
+
+                
             }
 
             e.Handled = false;

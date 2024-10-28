@@ -1,3 +1,5 @@
+using System.CodeDom.Compiler;
+
 namespace File_Invaders_Game
 {
     internal static class Program
@@ -20,6 +22,7 @@ namespace File_Invaders_Game
             };
 
             Application.Run(player);
+            
         }
     }
 }

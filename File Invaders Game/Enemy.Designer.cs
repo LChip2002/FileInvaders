@@ -1,6 +1,6 @@
 ﻿namespace File_Invaders_Game
 {
-    partial class Bullet
+    partial class Enemy
     {
         /// <summary>
         /// Required designer variable.
@@ -34,22 +34,21 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.Image = Properties.Resources.Bullet;
-            pictureBox1.Location = new Point(0, 0);
+            pictureBox1.Image = Properties.Resources.Windows_11_File_Explorer;
+            pictureBox1.Location = new Point(12, 3);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(120, 184);
-            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.Size = new Size(90, 92);
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             // 
-            // Bullet
+            // Enemy
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(120, 190);
+            ClientSize = new Size(120, 93);
             Controls.Add(pictureBox1);
-            Name = "Bullet";
-            Text = "Bullet";
+            Name = "Enemy";
+            Text = "Enemy";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
         }

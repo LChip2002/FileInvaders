@@ -79,5 +79,15 @@ namespace File_Invaders_Game.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Windows_11_File_Explorer {
+            get {
+                object obj = ResourceManager.GetObject("Windows 11 File Explorer", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

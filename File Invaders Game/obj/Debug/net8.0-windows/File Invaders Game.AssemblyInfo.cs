@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("File Invaders Game")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7bf3c8958477f4c102155686b7ee91c0d1bc9106")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4783af2d6f52550f6cf23d7d3aa648774c481472")]
 [assembly: System.Reflection.AssemblyProductAttribute("File Invaders Game")]
 [assembly: System.Reflection.AssemblyTitleAttribute("File Invaders Game")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

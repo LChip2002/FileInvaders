@@ -17,3 +17,4 @@ C:\Users\Student\Downloads\FileInvaders\File Invaders Game\obj\Debug\net8.0-wind
 C:\Users\Student\Downloads\FileInvaders\File Invaders Game\obj\Debug\net8.0-windows\ref\File Invaders Game.dll
 C:\Users\Student\Downloads\FileInvaders\File Invaders Game\obj\Debug\net8.0-windows\File_Invaders_Game.Properties.Resources.resources
 C:\Users\Student\Downloads\FileInvaders\File Invaders Game\obj\Debug\net8.0-windows\File_Invaders_Game.Bullet.resources
+C:\Users\Student\Downloads\FileInvaders\File Invaders Game\obj\Debug\net8.0-windows\File_Invaders_Game.Enemy.resources

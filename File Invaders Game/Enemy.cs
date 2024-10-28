@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace File_Invaders_Game
 {
-    public partial class Bullet : Form
+    public partial class Enemy : Form
     {
-        public Bullet()
+        public Enemy()
         {
             InitializeComponent();
         }
