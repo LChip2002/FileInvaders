@@ -58,7 +58,7 @@ namespace File_Invaders_Game
 
             // Associate the event-handling method with the
             // KeyDown event.
-            this.KeyDown += new KeyEventHandler(Form1_KeyDown);
+            //this.KeyDown += new KeyEventHandler(Form1_KeyDown);
         }
 
         // The form will handle all key events before the control with  
@@ -66,45 +66,34 @@ namespace File_Invaders_Game
         // KeyCode object to ListBox1. Ensure the processing is passed
         // to the control with focus by setting the KeyEventArg.Handled
         // property to false.
-        private void Player_KeyLeft(object sender, KeyEventArgs e)
+        private void Player_KeyDown(object sender, KeyEventArgs e)
         {
-            //Player.Items.Add(e.KeyCode);
+            // Keyboard inputs
+            if (e.KeyCode == Keys.Escape) 
+            { 
+                Application.Exit();
+            }
+            else if (e.KeyCode == Keys.Left) 
+            {
+                this.Location = new Point(this.Location.X - 10, this.Location.Y);
+            }
+            else if (e.KeyCode == Keys.Right)
+            {
+                this.Location = new Point(this.Location.X + 10, this.Location.Y);
+            }
+            else if (e.KeyCode == Keys.Up)
+            {
+                Bullet bullet = new Bullet() 
+                {
+                    Location = this.Location
+                };
+
+                bullet.Location = this.Location;
+                bullet.Show();
+            }
+
             e.Handled = false;
-        }
-
-        // The form will handle all key events before the control with  
-        // focus handles them.  Show the keys pressed by adding the
-        // KeyCode object to ListBox1. Ensure the processing is passed
-        // to the control with focus by setting the KeyEventArg.Handled
-        // property to false.
-        private void Player_KeyRight(object sender, KeyEventArgs e)
-        {
-            //Player.Items.Add(e.KeyCode);
-            e.Handled = false;
-        }
-
-        // The form will handle all key events before the control with  
-        // focus handles them.  Show the keys pressed by adding the
-        // KeyCode object to ListBox1. Ensure the processing is passed
-        // to the control with focus by setting the KeyEventArg.Handled
-        // property to false.
-        private void Player_KeyUp(object sender, KeyEventArgs e)
-        {
-            //Player.Items.Add(e.KeyCode);
-            e.Handled = false;
-        }
-
-        // The form will handle all key events before the control with  
-        // focus handles them.  Show the keys pressed by adding the
-        // KeyCode object to ListBox1. Ensure the processing is passed
-        // to the control with focus by setting the KeyEventArg.Handled
-        // property to false.
-        private void Player_KeyEsc(object sender, KeyEventArgs e)
-        {
-            MessageBox.Show("Goodbye");
-            Application.Exit();
-            //e.Handled = false;
-        }
+        }        
 
         #endregion
 
