@@ -100,32 +100,31 @@ namespace File_Invaders_Game
 
                     if (hitEnemies.Count > 0) 
                     {
-                        foreach (var hitEnemy in hitEnemies)
+                        for (int i = 0; i < hitEnemies.Count; i++) 
                         {
-
                             // Closes the window
-                            hitEnemy.Close();
+                            hitEnemies[i].Close();
 
                             // Deletes the file
-                            File.Delete(Directory.GetCurrentDirectory() + "\\TestFolder\\" + hitEnemy.Name);
+                            File.Delete(Directory.GetCurrentDirectory() + "\\TestFolder\\" + hitEnemies[i].Name);
 
+                            // Removes file from list
+                            hitEnemies.Remove(hitEnemies[i]);
+                            i--;
 
                             // Checks if no files are left
-                            if (Directory.GetFiles(Directory.GetCurrentDirectory() + "\\TestFolder\\").Count() == 0) 
+                            if (Directory.GetFiles(Directory.GetCurrentDirectory() + "\\TestFolder\\").Count() == 0)
                             {
                                 // TODO - Victory message or boss
-                                Console.WriteLine("Victory");
+                                //var formPopup = new Form();
+                                //formPopup.Show();
 
                                 Application.Exit();
                             }
-
-
                         }
+                        
                         break;
                     }
-
-                    
-                    
 
                 }
 
